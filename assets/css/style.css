@@ -1,4 +1,6 @@
 header {
+  position: fixed;
+  top: auto;
   height: 40px;
   width: 100%;
   /* Sets border to bottom only */
@@ -7,6 +9,12 @@ header {
 }
 body{
   background-color: #e4efff;
+  font-family: 'Courier New', Courier, Arial, Helvetica, sans-serif;
+}
+a
+{
+  color: #ffffff;
+  border: 1px #151515;
 }
 footer {
   height: 50px;
@@ -15,14 +23,21 @@ footer {
   border-top: 10px solid darkblue;
   background-color: #a1c7ff;
 }
+#i-margin{
+  margin: 20px;
+}
 #gray{
-  align-self: center;
+  margin: 1%;
+  left: 10px;
   height: 100px;
   width: 40%;
   background-color: rgb(238, 238, 238);
   border: aliceblue;
 }
 section {
+  display: flex;
+  align-items:center;
+  border: 1px solid #4F4846;
   width: 70%;
   /* Sets top and bottom margin to 20px. Auto will center element */
   margin: 20px auto;
